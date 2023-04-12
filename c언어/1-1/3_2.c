@@ -4,7 +4,7 @@
 
 int main(){
     int in_money, coin_500, coin_100, coin_50, coin_10;
-    printf("온전으로 교환할 금액은 얼마게요?");
+    printf("온전으로 교환할 금액은 얼마게요?!");
     scanf("%d", &in_money);
     coin_500 = in_money/500;
     in_money = in_money % 500;
