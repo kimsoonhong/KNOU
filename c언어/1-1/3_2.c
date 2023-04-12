@@ -16,10 +16,10 @@ int main(){
     in_money = in_money % 10;
 
     printf("\n 오백원짜리 => %d 개 \n", coin_500);
-        printf("\n 백원짜리 => %d 개 \n", coin_100);
-            printf("\n 오십원짜리 => %d 개 \n", coin_50);
-                printf("\n 십원짜리 => %d 개 \n", coin_10);
-                    printf("\n 바꾸지못한잔돈 => %d 개 \n", in_money);
+    printf("\n 백원짜리 => %d 개 \n", coin_100);
+    printf("\n 오십원짜리 => %d 개 \n", coin_50);
+    printf("\n 십원짜리 => %d 개 \n", coin_10);
+    printf("\n 바꾸지못한잔돈 => %d 원 \n", in_money);
 
 
     return 0;
