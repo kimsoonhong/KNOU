@@ -10,10 +10,12 @@ void main() {
             printf("양의 정수를 입력 (%d번째) : ", i + 1);
             scanf("%d", &num);
         }
-             sum += num;
+        sum += num;
         num = 0;
         i++;
     }
-printf("총 합 : %d\n", sum);
+    printf("총 합 : %d\n", sum);
     
 }
+
+//숫자 다섯개를 입력 받고 그 합을 구하는 프로그램
